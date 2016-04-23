@@ -2,6 +2,7 @@ import numpy as np
 import scipy as sp 
 import sklearn as sk
 from sklearn import tree
+
 from sklearn.linear_model import LogisticRegression
 
 
@@ -43,4 +44,5 @@ summarize = sk.metrics.classification_report(expected, predicted)
 
 #Printing the result
 print summarize
+
 
